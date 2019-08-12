@@ -24,3 +24,8 @@ let lastName = "Johnson"; // string/text
 let car = ""; // string
 let isOpen = true; // boolean
 console.log(typeof length, typeof lastName, typeof car, typeof isOpen);
+
+// #5
+let ageMark = "32";
+let ageJohn = 42;
+console.log(typeof ageMark, typeof ageJohn);

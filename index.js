@@ -49,4 +49,8 @@ console.log( programmingLanguage + " is fun: " + isFun );
 
 // #9
 let test
-console.log( typeof test)
+console.log( typeof test) // It's undefined because it has no value
+
+// #10
+let calculation = (17 * 20 + 65);
+console.log( calculation );

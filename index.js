@@ -32,3 +32,12 @@ console.log(typeof ageMark, typeof ageJohn);
 
 // #6
 console.log( ageJohn > ageMark ? "John is older than Mark: true" : "John is older than Mark: false" );
+
+// #7
+let a = 10;
+let b = 20;
+let c = 30;
+let ab = a === b;
+let bc = b === c;
+let ac = a === c;
+console.log( typeof ab, typeof bc, typeof ac );

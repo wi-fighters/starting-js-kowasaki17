@@ -41,3 +41,8 @@ let ab = a === b;
 let bc = b === c;
 let ac = a === c;
 console.log( typeof ab, typeof bc, typeof ac );
+
+// #8
+let programmingLanguage = "JavaScript";
+let isFun = "true";
+console.log( programmingLanguage + " is fun: " + isFun );

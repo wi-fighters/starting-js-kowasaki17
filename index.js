@@ -29,3 +29,6 @@ console.log(typeof length, typeof lastName, typeof car, typeof isOpen);
 let ageMark = "32";
 let ageJohn = 42;
 console.log(typeof ageMark, typeof ageJohn);
+
+// #6
+console.log( ageJohn > ageMark ? "John is older than Mark: true" : "John is older than Mark: false" );

@@ -46,3 +46,7 @@ console.log( typeof ab, typeof bc, typeof ac );
 let programmingLanguage = "JavaScript";
 let isFun = "true";
 console.log( programmingLanguage + " is fun: " + isFun );
+
+// #9
+let test
+console.log( typeof test)

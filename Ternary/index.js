@@ -16,3 +16,13 @@ const personAge =17;
 const ageCheck = (drinkingAge >= personAge) ? "Here's some juice" : "Here's some wine";
 console.log(ageCheck);
 
+// #4
+const isStudent = 0;
+const checkStudent = (isStudent === 1) ? "Ticket costs 5,00." : "Ticket costs 12,00";
+console.log(checkStudent);
+
+// #5
+const morning = 12;
+const exampleTime = 9;
+const timeOfDay = (morning >= exampleTime) ? "Good Morning" : "Good Evening"; 
+console.log(timeOfDay);

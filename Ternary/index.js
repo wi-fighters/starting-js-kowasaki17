@@ -15,3 +15,4 @@ const drinkingAge = 21;
 const personAge =17;
 const ageCheck = (drinkingAge >= personAge) ? "Here's some juice" : "Here's some wine";
 console.log(ageCheck);
+

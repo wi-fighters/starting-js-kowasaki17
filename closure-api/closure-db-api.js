@@ -7,7 +7,7 @@ const init = () => {
     const create = (value) => {
         db.push(value);
 
-        return db.length;
+        return `New element added! The new length of the array is ${db.length}`;
     };
 
     const read = () => {
@@ -15,8 +15,17 @@ const init = () => {
         return output;
     };
 
+    const update = (index, newElement) => {
 
-    api.push(create, read);
+        if (db[index]) {
+        return db[index] = newElement;
+        }
+        else { return create(newElement);}
+
+    };
+
+
+    api.push(create, read, update);
 
     return api;
 
@@ -34,3 +43,8 @@ createInDb[0](30);
 console.log(createInDb);
 console.log(createInDb[0](40));
 console.log(createInDb[1]());
+console.log(createInDb[2](1, 60));
+console.log(createInDb[2](6, 100));
+console.log(createInDb[1]());
+
+

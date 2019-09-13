@@ -5,12 +5,18 @@ const init = () => {
     const api = []; // create
 
     const create = (value) => {
-        db.push(value)
+        db.push(value);
 
         return db.length;
     };
 
-    api.push(create);
+    const read = () => {
+        const output = [...db];
+        return output;
+    };
+
+
+    api.push(create, read);
 
     return api;
 
@@ -21,10 +27,10 @@ const createInDb = init(); // api [Function]
 // createInDb[0](9) = call the function
 
 
-// createInDb(10)
-// createInDb(20)
-// createInDb(30)
+createInDb[0](10);
+createInDb[0](20);
+createInDb[0](30);
 
 console.log(createInDb);
-console.log(createInDb[0]);
-console.log(createInDb[0](9));
+console.log(createInDb[0](40));
+console.log(createInDb[1]());

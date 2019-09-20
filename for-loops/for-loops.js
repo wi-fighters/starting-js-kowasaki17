@@ -131,7 +131,7 @@ exercise92 = () => {
         first *= 2;
     }
 }
-exercise92();
+//exercise92();
 
 exercise93 = () => {
 
@@ -163,15 +163,24 @@ exercise95 = () => {
 }
 //exercise95();
 
-/* exercise10 = () => {
+exercise10 = () => {
 
-    let palindrom = [];
-    let reversed = 
+    let palindrom = 'madam';
+    let splited = '';
+    let reversed = [];
+    let joined = [];
+    split = palindrom.split('');
+    reversed = split.reverse();
+    joined = reversed.join('');
+    result = '';
+    
 
-    for (let i = 0; i < palindrom.length; i += 1){
-
-        if (palindrom[i] === )
-
-    }
-
-} */
+    for (i = 0; i < palindrom.length; i += 1){
+        if (palindrom === joined){
+        result = `${palindrom} is a palindrom`
+        } 
+        else {result = `${palindrom} is not a palindrom`};
+        }
+    console.log(result);
+}
+exercise10();

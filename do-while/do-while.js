@@ -101,29 +101,29 @@ do {
 while (index < names.length); */
 
 // #2.4
-/* 
-let arr = [2, 3, 4, 5, 5, 7, 10, 10];
+
+let arr = [2, 3, 4, 5, 5, 7, 6, 6, 10, 10];
 let arrResult = [];
 index = 0;
 index2 = 1;
 
 do{
-    if(arr[index] === arr[index2]){
-        arr.splice(arr[index2],1)
+    if(arr[index] != arr[index2]){
+        arrResult.push(arr[index])
     }
     else{
         
     };
-    console.log(arr);
+    console.log(arrResult);
 
     index += 1;
     index2 += 1;
 }
-while(index < arr.length); */
+while(index < arr.length);
 
 
 // #2.5
-let times = 3; // 2
+/* let times = 3; // 2
 let item = 'Zitronenkaugummi';
 let result = []; // ['Zitronenkaugummi']
 
@@ -132,4 +132,4 @@ do {
     console.log(result);
     times -= 1;
 }
-while(times > 0);
+while(times > 0); */
